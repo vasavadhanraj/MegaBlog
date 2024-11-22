@@ -37,12 +37,14 @@ function Header() {
     ]
 
     return (
-        <header className='py-3 shadow bg-gray-500'>
+        <header className='py-3 shadow bg-gray-500 rounded-lg font-semibold'>
             <Container>
                 <nav className='flex'>
-                    <div className='mr-4'>
+                    <div className='mr-6 mt-1 '>
                         <Link to='/'>
-                            <Logo width='70px' />
+                            <div className="hover:text-red-700 hover:bg-white px-2 py-1 rounded-full ">
+                                <Logo width='70px' />
+                            </div>
                         </Link>
                     </div>
                     <ul className="flex ml-auto">
