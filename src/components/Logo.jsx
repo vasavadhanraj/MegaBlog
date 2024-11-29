@@ -1,8 +1,9 @@
 import React from 'react'
-
-function Logo({width = '100px'}) {
+function Logo() {
     return (
-        <div className='font-sans'>MegaBLog</div>
+        <div className='font-sans'>
+        <img src="/Logo-Banner-white.png" alt="" width={'120px'}/>
+        </div>
     )
 }
 
